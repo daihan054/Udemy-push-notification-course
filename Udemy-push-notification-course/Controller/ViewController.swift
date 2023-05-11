@@ -11,6 +11,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        UNService.shared.authorize()
     }
 
     @IBAction func timerTapped(_ sender: Any) {
