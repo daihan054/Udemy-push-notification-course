@@ -11,6 +11,8 @@
 		C75A40002A0CB16800C1D393 /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75A3FFF2A0CB16800C1D393 /* AlertService.swift */; };
 		C75A40022A0CB96600C1D393 /* CLService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75A40012A0CB96600C1D393 /* CLService.swift */; };
 		C75A40042A0CC39200C1D393 /* NotificationAttachmentID.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75A40032A0CC39200C1D393 /* NotificationAttachmentID.swift */; };
+		C75A40062A0CC84100C1D393 /* NotificationActionId.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75A40052A0CC84100C1D393 /* NotificationActionId.swift */; };
+		C75A40082A0CCA0600C1D393 /* NotificationCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75A40072A0CCA0600C1D393 /* NotificationCategory.swift */; };
 		C7BEBB3F2A0C994100153D4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BEBB3E2A0C994100153D4B /* AppDelegate.swift */; };
 		C7BEBB412A0C994100153D4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BEBB402A0C994100153D4B /* SceneDelegate.swift */; };
 		C7BEBB432A0C994100153D4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BEBB422A0C994100153D4B /* ViewController.swift */; };
@@ -28,6 +30,8 @@
 		C75A3FFF2A0CB16800C1D393 /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
 		C75A40012A0CB96600C1D393 /* CLService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLService.swift; sourceTree = "<group>"; };
 		C75A40032A0CC39200C1D393 /* NotificationAttachmentID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationAttachmentID.swift; sourceTree = "<group>"; };
+		C75A40052A0CC84100C1D393 /* NotificationActionId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationActionId.swift; sourceTree = "<group>"; };
+		C75A40072A0CCA0600C1D393 /* NotificationCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCategory.swift; sourceTree = "<group>"; };
 		C7BEBB3B2A0C994100153D4B /* Udemy-push-notification-course.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Udemy-push-notification-course.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7BEBB3E2A0C994100153D4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7BEBB402A0C994100153D4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				C75A40032A0CC39200C1D393 /* NotificationAttachmentID.swift */,
+				C75A40052A0CC84100C1D393 /* NotificationActionId.swift */,
+				C75A40072A0CCA0600C1D393 /* NotificationCategory.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -205,8 +211,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C75A40082A0CCA0600C1D393 /* NotificationCategory.swift in Sources */,
 				C7BEBB572A0C9E2E00153D4B /* ShadowView.swift in Sources */,
 				C7BEBB432A0C994100153D4B /* ViewController.swift in Sources */,
+				C75A40062A0CC84100C1D393 /* NotificationActionId.swift in Sources */,
 				C7BEBB3F2A0C994100153D4B /* AppDelegate.swift in Sources */,
 				C75A40022A0CB96600C1D393 /* CLService.swift in Sources */,
 				C7BEBB412A0C994100153D4B /* SceneDelegate.swift in Sources */,
