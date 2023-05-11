@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7BEBB3F2A0C994100153D4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BEBB3E2A0C994100153D4B /* AppDelegate.swift */; };
+		C7BEBB412A0C994100153D4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BEBB402A0C994100153D4B /* SceneDelegate.swift */; };
+		C7BEBB432A0C994100153D4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BEBB422A0C994100153D4B /* ViewController.swift */; };
+		C7BEBB462A0C994100153D4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BEBB442A0C994100153D4B /* Main.storyboard */; };
+		C7BEBB482A0C994300153D4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7BEBB472A0C994300153D4B /* Assets.xcassets */; };
+		C7BEBB4B2A0C994300153D4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BEBB492A0C994300153D4B /* LaunchScreen.storyboard */; };
+		C7BEBB572A0C9E2E00153D4B /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BEBB562A0C9E2E00153D4B /* ShadowView.swift */; };
+		C7BEBB5C2A0CA1C500153D4B /* TimeAlert.png in Resources */ = {isa = PBXBuildFile; fileRef = C7BEBB592A0CA1C500153D4B /* TimeAlert.png */; };
+		C7BEBB5D2A0CA1C500153D4B /* DateAlert.png in Resources */ = {isa = PBXBuildFile; fileRef = C7BEBB5A2A0CA1C500153D4B /* DateAlert.png */; };
+		C7BEBB5E2A0CA1C500153D4B /* LocationAlert.png in Resources */ = {isa = PBXBuildFile; fileRef = C7BEBB5B2A0CA1C500153D4B /* LocationAlert.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C7BEBB3B2A0C994100153D4B /* Udemy-push-notification-course.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Udemy-push-notification-course.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7BEBB3E2A0C994100153D4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7BEBB402A0C994100153D4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C7BEBB422A0C994100153D4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7BEBB452A0C994100153D4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7BEBB472A0C994300153D4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7BEBB4A2A0C994300153D4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7BEBB4C2A0C994300153D4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7BEBB562A0C9E2E00153D4B /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		C7BEBB592A0CA1C500153D4B /* TimeAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimeAlert.png; sourceTree = "<group>"; };
+		C7BEBB5A2A0CA1C500153D4B /* DateAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DateAlert.png; sourceTree = "<group>"; };
+		C7BEBB5B2A0CA1C500153D4B /* LocationAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LocationAlert.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7BEBB382A0C994100153D4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7BEBB322A0C994100153D4B = {
+			isa = PBXGroup;
+			children = (
+				C7BEBB3D2A0C994100153D4B /* Udemy-push-notification-course */,
+				C7BEBB3C2A0C994100153D4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7BEBB3C2A0C994100153D4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7BEBB3B2A0C994100153D4B /* Udemy-push-notification-course.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7BEBB3D2A0C994100153D4B /* Udemy-push-notification-course */ = {
+			isa = PBXGroup;
+			children = (
+				C7BEBB542A0C9AB400153D4B /* Model */,
+				C7BEBB532A0C9AAB00153D4B /* View */,
+				C7BEBB522A0C9AA000153D4B /* Controller */,
+				C7BEBB552A0C9AC300153D4B /* Service */,
+				C7BEBB4C2A0C994300153D4B /* Info.plist */,
+			);
+			path = "Udemy-push-notification-course";
+			sourceTree = "<group>";
+		};
+		C7BEBB522A0C9AA000153D4B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C7BEBB402A0C994100153D4B /* SceneDelegate.swift */,
+				C7BEBB3E2A0C994100153D4B /* AppDelegate.swift */,
+				C7BEBB422A0C994100153D4B /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C7BEBB532A0C9AAB00153D4B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C7BEBB582A0CA1A200153D4B /* NotificationAssets */,
+				C7BEBB442A0C994100153D4B /* Main.storyboard */,
+				C7BEBB472A0C994300153D4B /* Assets.xcassets */,
+				C7BEBB492A0C994300153D4B /* LaunchScreen.storyboard */,
+				C7BEBB562A0C9E2E00153D4B /* ShadowView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C7BEBB542A0C9AB400153D4B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C7BEBB552A0C9AC300153D4B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		C7BEBB582A0CA1A200153D4B /* NotificationAssets */ = {
+			isa = PBXGroup;
+			children = (
+				C7BEBB5A2A0CA1C500153D4B /* DateAlert.png */,
+				C7BEBB5B2A0CA1C500153D4B /* LocationAlert.png */,
+				C7BEBB592A0CA1C500153D4B /* TimeAlert.png */,
+			);
+			path = NotificationAssets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7BEBB3A2A0C994100153D4B /* Udemy-push-notification-course */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7BEBB4F2A0C994300153D4B /* Build configuration list for PBXNativeTarget "Udemy-push-notification-course" */;
+			buildPhases = (
+				C7BEBB372A0C994100153D4B /* Sources */,
+				C7BEBB382A0C994100153D4B /* Frameworks */,
+				C7BEBB392A0C994100153D4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Udemy-push-notification-course";
+			productName = "Udemy-push-notification-course";
+			productReference = C7BEBB3B2A0C994100153D4B /* Udemy-push-notification-course.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7BEBB332A0C994100153D4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C7BEBB3A2A0C994100153D4B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C7BEBB362A0C994100153D4B /* Build configuration list for PBXProject "Udemy-push-notification-course" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7BEBB322A0C994100153D4B;
+			productRefGroup = C7BEBB3C2A0C994100153D4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7BEBB3A2A0C994100153D4B /* Udemy-push-notification-course */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7BEBB392A0C994100153D4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7BEBB4B2A0C994300153D4B /* LaunchScreen.storyboard in Resources */,
+				C7BEBB5D2A0CA1C500153D4B /* DateAlert.png in Resources */,
+				C7BEBB482A0C994300153D4B /* Assets.xcassets in Resources */,
+				C7BEBB5E2A0CA1C500153D4B /* LocationAlert.png in Resources */,
+				C7BEBB462A0C994100153D4B /* Main.storyboard in Resources */,
+				C7BEBB5C2A0CA1C500153D4B /* TimeAlert.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7BEBB372A0C994100153D4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7BEBB572A0C9E2E00153D4B /* ShadowView.swift in Sources */,
+				C7BEBB432A0C994100153D4B /* ViewController.swift in Sources */,
+				C7BEBB3F2A0C994100153D4B /* AppDelegate.swift in Sources */,
+				C7BEBB412A0C994100153D4B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7BEBB442A0C994100153D4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7BEBB452A0C994100153D4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7BEBB492A0C994300153D4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7BEBB4A2A0C994300153D4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7BEBB4D2A0C994300153D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7BEBB4E2A0C994300153D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7BEBB502A0C994300153D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N66HCPTXFG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Udemy-push-notification-course/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.revechat.reve.Udemy-push-notification-course";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7BEBB512A0C994300153D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N66HCPTXFG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Udemy-push-notification-course/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.revechat.reve.Udemy-push-notification-course";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7BEBB362A0C994100153D4B /* Build configuration list for PBXProject "Udemy-push-notification-course" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7BEBB4D2A0C994300153D4B /* Debug */,
+				C7BEBB4E2A0C994300153D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7BEBB4F2A0C994300153D4B /* Build configuration list for PBXNativeTarget "Udemy-push-notification-course" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7BEBB502A0C994300153D4B /* Debug */,
+				C7BEBB512A0C994300153D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7BEBB332A0C994100153D4B /* Project object */;
+}
